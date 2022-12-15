@@ -1,0 +1,39 @@
+:root {
+  --primaryColor: #f5f5f5;
+  --secondaryColor: #202020;
+  --hoverColor: #313131;
+  --accentColor: #00c8ff;
+  --borderColor: #f5f5f5;
+}
+
+.dark-mode {
+  --primaryColor: #f5f5f5;
+  --secondaryColor: #202020;
+  --hoverColor: #313131;
+  --accentColor: #00c8ff;
+  --borderColor: #f5f5f5;
+}
+
+.light-mode {
+  --primaryColor: #202020;
+  --secondaryColor: #f5f5f5;
+  --hoverColor: #dcdcdc;
+  --accentColor: #00c8ff;
+  --borderColor: #3f3f3f;
+}
+
+.sepia-mode {
+  --primaryColor: #4e350e;
+  --secondaryColor: #ffd596;
+  --hoverColor: #ffeacb;
+  --accentColor: #4e350e;
+  --borderColor: #4e350e;
+}
+
+.abyss-mode {
+  --primaryColor: #f5f5f5;
+  --secondaryColor: #010c18;
+  --hoverColor: #151f37;
+  --accentColor: #00c8ff;
+  --borderColor: #f5f5f5;
+}
