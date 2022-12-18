@@ -12,13 +12,14 @@ useHead({
 });
 </script>
 
-<style lang="scss">
+<style>
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
 }
 
 :root {
@@ -27,5 +28,7 @@ useHead({
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --breakpoint-xxl: 1400px;
+
+  font-size: 62.5%;
 }
 </style>

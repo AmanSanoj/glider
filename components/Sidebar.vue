@@ -26,21 +26,25 @@
 
 <style lang="scss" scoped>
 .sidebar {
-  margin: 25px 0;
-  padding: 0 30px;
-  height: calc(100% - (2 * 25px));
-  font-size: 1.1rem;
-  width: 13rem;
+  margin: 4rem 0;
+  padding: 1.5rem;
+  height: calc(100% - (2 * 4rem));
+  font-size: 2.2rem;
+  width: 22%;
   position: fixed;
   left: 0;
   top: 0;
   border-right: 2px solid var(--borderColor);
-  padding: 20px;
-  box-sizing: border-box;
   display: inline-flex;
   flex-direction: column;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 992px) {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    width: 28%;
+  }
+
+  @media only screen and (max-width: 576px) {
     display: none;
   }
 

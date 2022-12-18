@@ -21,8 +21,8 @@ const { title, description, thumbnail, id } = props.post;
 #postCard {
   border: 2px solid var(--borderColor);
   border-radius: 20px;
-  margin: 1rem 0;
-  padding: 1rem;
+  margin: 2.1rem 0;
+  padding: 2.1rem;
   display: flex;
 
   h1 {
